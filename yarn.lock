@@ -4037,7 +4037,7 @@ __metadata:
     eslint-plugin-jsdoc: ^41.1.2
     eslint-plugin-n: ^15.7.0
     eslint-plugin-prettier: ^4.2.1
-    eslint-plugin-promise: ^6.1.1
+    eslint-plugin-promise: ^7.0.0
     jest: ^29.7.0
     prettier: ^2.7.1
     prettier-plugin-packagejson: ^2.2.11
@@ -5630,12 +5630,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-promise@npm:^6.1.1":
-  version: 6.6.0
-  resolution: "eslint-plugin-promise@npm:6.6.0"
+"eslint-plugin-promise@npm:^7.0.0":
+  version: 7.2.1
+  resolution: "eslint-plugin-promise@npm:7.2.1"
+  dependencies:
+    "@eslint-community/eslint-utils": ^4.4.0
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 5098fbf38585ad411737c389c462df72b11a7db2f0241eca23cf990e5535a2de3fac7fb24258c3e6bf05433ef2a59425ec1ca1cef456360614eb7cdbfefcec66
+  checksum: 9101a93efd79f5202d0239d7666935c1d5655f64f4527cea6e82e1438b4de4304351de60f2c26201289a22eed1da4b3a21e7996fa3268b9943b98d12c80b2030
   languageName: node
   linkType: hard
 
