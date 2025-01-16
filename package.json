@@ -1,6 +1,6 @@
 {
   "name": "beranames_resolver",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This plugin includes the npm package to install as snap on metamask to resolve BNS - Berachain Name Service",
   "repository": {
     "type": "git",
@@ -10,7 +10,8 @@
   "main": "./dist/bundle.js",
   "files": [
     "dist/",
-    "snap.manifest.json"
+    "snap.manifest.json",
+    "images/beranamesLogo.svg"
   ],
   "scripts": {
     "allow-scripts": "yarn workspace root allow-scripts",
