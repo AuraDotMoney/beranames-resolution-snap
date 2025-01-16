@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "description": "BNS - Berachain Name Service Resolver",
+  "proposedName": "Beranames Resolver",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Beranames/beranames-resolution-snap.git"
+  },
+  "source": {
+    "shasum": "8eUHDZ5G3qETzkfdL0a8Eboav9vJUPi8RJ3XPmebA3Y=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "packageName": "beranames_resolver",
+        "registry": "https://registry.npmjs.org/",
+        "iconPath": "images/beranamesLogo.svg"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:network-access": {},
+    "endowment:name-lookup": {
+      "chains": ["eip155:80084"],
+      "matchers": {
+        "tlds": ["bera", "🐻⛓️"]
+      }
+    }
+  },
+  "platformVersion": "6.15.0",
+  "manifestVersion": "0.1"
+}
