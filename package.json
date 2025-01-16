@@ -4,7 +4,7 @@
   "description": "This plugin includes the npm package to install as snap on metamask to resolve BNS - Berachain Name Service",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Beranames/beranames-resolution-snap.git"
+    "url": "git+https://github.com/Beranames/beranames-resolution-snap.git"
   },
   "license": "MIT-0",
   "main": "./dist/bundle.js",
