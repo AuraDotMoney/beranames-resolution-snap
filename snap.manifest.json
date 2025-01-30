@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "BNS - Berachain Name Service Resolver",
   "proposedName": "Beranames Resolver",
   "repository": {
@@ -26,6 +26,6 @@
       }
     }
   },
-  "platformVersion": "6.15.0",
+  "platformVersion": "6.13.0",
   "manifestVersion": "0.1"
 }
