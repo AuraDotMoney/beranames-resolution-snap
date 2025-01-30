@@ -4,10 +4,10 @@
   "proposedName": "Beranames Resolver",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Beranames/beranames-resolution-snap.git"
+    "url": "git+https://github.com/Beranames/beranames-resolution-snap.git"
   },
   "source": {
-    "shasum": "MSOp9NBk0hbrYjsImb5O0v6LEg1yvZxAX6GU+BWmt3I=",
+    "shasum": "NnNBE7MNBmHNhLt6W5KmQIG4ngfl9mNHLvF/V/8FjMs=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
