@@ -34,7 +34,7 @@ describe('onNameLookup', () => {
     describe('with non existing .bera domain', () => {
       it('returns null for non-existent .bera domain', async () => {
         const request = {
-          domain: 'nonexistent.bera',
+          domain: 'nonexistentasdfasdfasdfasdfasdfasdfasdf.bera',
           chainId: BARTIO_ID,
         };
 
@@ -70,7 +70,7 @@ describe('onNameLookup', () => {
     describe('with non existing .🐻⛓️ domain', () => {
       it('returns null for non-existent .🐻⛓️ domain', async () => {
         const request = {
-          domain: 'nonexistent.🐻⛓️',
+          domain: 'nonexistentasdfasdfasdfasdfasdfasdfasdf.🐻⛓️',
           chainId: BARTIO_ID,
         };
   
