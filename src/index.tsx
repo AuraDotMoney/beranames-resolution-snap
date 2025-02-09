@@ -1,6 +1,6 @@
 import type { OnNameLookupHandler } from '@metamask/snaps-sdk';
 import { createPublicClient, http } from 'viem';
-import { berachainTestnetbArtio } from 'viem/chains';
+import { berachain } from 'viem/chains';
 import { normalize } from 'viem/ens';
 
 export const onNameLookup: OnNameLookupHandler = async (request) => {
@@ -18,7 +18,7 @@ export const onNameLookup: OnNameLookupHandler = async (request) => {
 
   // Create a public client
   const client = createPublicClient({
-    chain: berachainTestnetbArtio,
+    chain: berachain,
     transport: http(),
   });
 
