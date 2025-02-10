@@ -7,7 +7,7 @@
     "url": "git+https://github.com/Beranames/beranames-resolution-snap.git"
   },
   "source": {
-    "shasum": "NnNBE7MNBmHNhLt6W5KmQIG4ngfl9mNHLvF/V/8FjMs=",
+    "shasum": "8GKWtqBxo/Llcy14EyoqoeQVXIKo5BpJCqWuML90jq4=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
@@ -16,6 +16,9 @@
         "iconPath": "images/beranamesLogo.svg"
       }
     }
+  },
+  "initialConnections": {
+    "https://www.beranames.com/": {}
   },
   "initialPermissions": {
     "endowment:network-access": {},

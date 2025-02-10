@@ -3,6 +3,7 @@ import { installSnap } from '@metamask/snaps-jest';
 
 const BARTIO_ID = 'eip155:80084';
 let onNameLookup: any;
+const GIO_ADDRESS = '0xB31EbE4ac66Ea5ACb5BC53FA1223893177b73290';
 
 beforeAll(async () => {
   const snap = await installSnap();
@@ -23,7 +24,7 @@ describe('onNameLookup', () => {
       expect(result).toEqual({
         resolvedAddresses: [
           {
-            resolvedAddress: '0xb245E730Afaf476260E061B177f86D3D062A3023',
+            resolvedAddress: GIO_ADDRESS,
             protocol: 'Beranames',
             domainName: 'gio.bera',
           },
@@ -59,7 +60,7 @@ describe('onNameLookup', () => {
       expect(result).toEqual({
         resolvedAddresses: [
           {
-            resolvedAddress: '0xb245E730Afaf476260E061B177f86D3D062A3023',
+            resolvedAddress: GIO_ADDRESS,
             protocol: 'Beranames',
             domainName: 'gio.bera',
           },
