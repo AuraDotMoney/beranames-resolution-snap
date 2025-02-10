@@ -4,7 +4,6 @@ import { berachain } from 'viem/chains';
 import { normalize } from 'viem/ens';
 
 export const onNameLookup: OnNameLookupHandler = async (request) => {
-  const { chainId, address } = request;
   let { domain } = request;
 
   if (!domain) {
