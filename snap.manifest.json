@@ -1,5 +1,5 @@
 {
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "BNS - Berachain Name Service Resolver",
   "proposedName": "Beranames Resolver",
   "repository": {
@@ -7,7 +7,7 @@
     "url": "git+https://github.com/Beranames/beranames-resolution-snap.git"
   },
   "source": {
-    "shasum": "8GKWtqBxo/Llcy14EyoqoeQVXIKo5BpJCqWuML90jq4=",
+    "shasum": "BfSHPx3Fv4J5LSVjwBrNsfIqTD+NWBzLtZSRv/K9a/Y=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
