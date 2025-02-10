@@ -4,6 +4,10 @@ This repo includes the npm package to install as snap on metamask to resolve BNS
 
 ## Installation
 
+https://snaps.metamask.io/snap/npm/beranames-resolver/
+
+## Development
+
 ```bash
 yarn install
 ```
