@@ -3151,21 +3151,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:19.0.3":
-  version: 19.0.3
-  resolution: "@types/react-dom@npm:19.0.3"
+"@types/react-dom@npm:19.0.4":
+  version: 19.0.4
+  resolution: "@types/react-dom@npm:19.0.4"
   peerDependencies:
     "@types/react": ^19.0.0
-  checksum: a253931fc3a41a74ef99a7380fa3fa02b94ddd1addba9fc0aea39c90ce3dfb22d60fbac292669de224b1ffb23836cde3cc78c2425f0c77593435b6368a9fd2ed
+  checksum: 2d0c74769ddcb4a9f404a62b3241d3e550ca962ff80c8c5b624f6626cd39f8b18aadee8e447424b52cffdd9165b1f02eb51020fc486584c8395236d97d4abedf
   languageName: node
   linkType: hard
 
-"@types/react@npm:19.0.9":
-  version: 19.0.9
-  resolution: "@types/react@npm:19.0.9"
+"@types/react@npm:19.0.10":
+  version: 19.0.10
+  resolution: "@types/react@npm:19.0.10"
   dependencies:
     csstype: ^3.0.2
-  checksum: aaa0e675689ee2cb88213dd60671f89f1d8a7b84f56bd4559cd27674603148fa6caeb70637a51b47f30e3a359e6cce3816639b5a1b10470b22e570b033b5d429
+  checksum: e257e87bc3464825014523aecc700540a9da41c3c23136c03da9b2b7999251ac70ef9e594febdefeea6abe51da2475b42e5d96af6559d76f8d54bffc0b0ddacd
   languageName: node
   linkType: hard
 
@@ -4126,8 +4126,8 @@ __metadata:
     "@metamask/snaps-cli": ^6.6.1
     "@metamask/snaps-jest": ^8.10.0
     "@metamask/snaps-sdk": 6.13.0
-    "@types/react": 19.0.9
-    "@types/react-dom": 19.0.3
+    "@types/react": 19.0.10
+    "@types/react-dom": 19.0.4
     "@typescript-eslint/eslint-plugin": ^8.20.0
     "@typescript-eslint/parser": ^8.20.0
     eslint: ^8.45.0
