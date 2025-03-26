@@ -28,7 +28,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@metamask/snaps-sdk": "6.19.0",
+    "@metamask/snaps-sdk": "6.20.0",
     "viem": "^2.22.8"
   },
   "devDependencies": {
