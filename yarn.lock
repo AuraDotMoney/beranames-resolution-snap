@@ -11394,8 +11394,8 @@ __metadata:
   linkType: hard
 
 "viem@npm:^2.22.8":
-  version: 2.23.15
-  resolution: "viem@npm:2.23.15"
+  version: 2.24.1
+  resolution: "viem@npm:2.24.1"
   dependencies:
     "@noble/curves": 1.8.1
     "@noble/hashes": 1.7.1
@@ -11410,7 +11410,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: b92e2067a855627770742954917f43850bd6dbf8f0dfdcbf7e4acff1946d53ba26d1bf4bdef324bcdc8007b98aa6892a02cc42bbdc1a179787b31dc682f08a4a
+  checksum: ad6acd7f779b5901d09e3efdc6a84590e95caa79a947a03cb01534d323c412f69546ffa61563ec0951f07396e87c0dd4d03a82d3c485654ecaf823d040b66f58
   languageName: node
   linkType: hard
 
