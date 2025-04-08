@@ -2487,7 +2487,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-sdk@npm:6.22.0":
+"@metamask/snaps-sdk@npm:6.22.0, @metamask/snaps-sdk@npm:^6.22.0":
   version: 6.22.0
   resolution: "@metamask/snaps-sdk@npm:6.22.0"
   dependencies:
@@ -2523,19 +2523,6 @@ __metadata:
     "@metamask/superstruct": ^3.1.0
     "@metamask/utils": ^11.0.1
   checksum: f1409c777eb51e69ca1a9b88bd61002ad1bf6006712eaebe2e8e6aa192127320ec0e233b4db364ed8048750314e6109b733f024b4699f04c77898a0511dd3983
-  languageName: node
-  linkType: hard
-
-"@metamask/snaps-sdk@npm:^6.22.0":
-  version: 6.22.0
-  resolution: "@metamask/snaps-sdk@npm:6.22.0"
-  dependencies:
-    "@metamask/key-tree": ^10.1.1
-    "@metamask/providers": ^21.0.0
-    "@metamask/rpc-errors": ^7.0.2
-    "@metamask/superstruct": ^3.2.1
-    "@metamask/utils": ^11.2.0
-  checksum: 7c5b2a8745da72816f320a42c9bfde56930ef124f40d289050f519a75ea7bb0f8b889034a7ad2435beae6ae97cbe597e7ee05565204f8696b3d294f0bba9d594
   languageName: node
   linkType: hard
 
@@ -11373,8 +11360,8 @@ __metadata:
   linkType: hard
 
 "viem@npm:^2.22.8":
-  version: 2.26.1
-  resolution: "viem@npm:2.26.1"
+  version: 2.26.2
+  resolution: "viem@npm:2.26.2"
   dependencies:
     "@noble/curves": 1.8.1
     "@noble/hashes": 1.7.1
@@ -11389,7 +11376,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 159916ebc9894bd0ef4e559083c5330c9d3ffc2bcccc61507585d9a88870d94eec22386e724035cc0fe6a995763bfedf40e141b95c032cd50a7cb35d0a761931
+  checksum: b1d6f67979f3a2a0f9918af5b20aee42cbeb2662046eba3aac73aea260c29fa16898b9824afe2eea6a9fa1510329a141ef511b92cc45f1b7a224caffef24215b
   languageName: node
   linkType: hard
 
