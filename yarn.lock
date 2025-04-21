@@ -1744,12 +1744,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@noble/curves@npm:1.8.1, @noble/curves@npm:^1.8.1, @noble/curves@npm:~1.8.1":
-  version: 1.8.1
-  resolution: "@noble/curves@npm:1.8.1"
+"@noble/curves@npm:1.8.2":
+  version: 1.8.2
+  resolution: "@noble/curves@npm:1.8.2"
   dependencies:
-    "@noble/hashes": 1.7.1
-  checksum: 4143f1248ed57c1ae46dfef5c692a91383e5830420b9c72d3ff1061aa9ebbf8999297da6d2aed8a9716fef8e6b1f5a45737feeab02abf55ca2a4f514bf9339ec
+    "@noble/hashes": 1.7.2
+  checksum: f26fd77b4d78fe26dba2754cbcaddee5da23a711a0c9778ee57764eb0084282d97659d9b0a760718f42493adf68665dbffdca9d6213950f03f079d09c465c096
   languageName: node
   linkType: hard
 
@@ -1759,6 +1759,15 @@ __metadata:
   dependencies:
     "@noble/hashes": 1.7.0
   checksum: 88198bc5b8049358dfcc6c5e121125744fb81c703299127800f38f868a41697bc26bef8f88dc38f1939f4e0133b8db5f24337164eca7421a6a9480ee711f5e1b
+  languageName: node
+  linkType: hard
+
+"@noble/curves@npm:^1.8.1, @noble/curves@npm:~1.8.1":
+  version: 1.8.1
+  resolution: "@noble/curves@npm:1.8.1"
+  dependencies:
+    "@noble/hashes": 1.7.1
+  checksum: 4143f1248ed57c1ae46dfef5c692a91383e5830420b9c72d3ff1061aa9ebbf8999297da6d2aed8a9716fef8e6b1f5a45737feeab02abf55ca2a4f514bf9339ec
   languageName: node
   linkType: hard
 
@@ -1780,6 +1789,13 @@ __metadata:
   version: 1.7.1
   resolution: "@noble/hashes@npm:1.7.1"
   checksum: 4f1b56428a10323feef17e4f437c9093556cb18db06f94d254043fadb69c3da8475f96eb3f8322d41e8670117d7486475a8875e68265c2839f60fd03edd6a616
+  languageName: node
+  linkType: hard
+
+"@noble/hashes@npm:1.7.2":
+  version: 1.7.2
+  resolution: "@noble/hashes@npm:1.7.2"
+  checksum: f9e3c2e62c2850073f8d6ac30cc33b03a25cae859eb2209b33ae90ed3d1e003cb2a1ddacd2aacd6b7c98a5ad70795a234ccce04b0526657cd8020ce4ffdb491f
   languageName: node
   linkType: hard
 
@@ -9732,11 +9748,11 @@ __metadata:
   linkType: hard
 
 "viem@npm:^2.22.8":
-  version: 2.27.2
-  resolution: "viem@npm:2.27.2"
+  version: 2.27.3
+  resolution: "viem@npm:2.27.3"
   dependencies:
-    "@noble/curves": 1.8.1
-    "@noble/hashes": 1.7.1
+    "@noble/curves": 1.8.2
+    "@noble/hashes": 1.7.2
     "@scure/bip32": 1.6.2
     "@scure/bip39": 1.5.4
     abitype: 1.0.8
@@ -9748,7 +9764,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: dbf3c7bf8635de13a95aa353ee389ca753aed5fbbf9fee4da2000aea43747a8a35587dcedd8c07fcfac197350182854166a2298e469e2c2b82ec9d7f937fd3d6
+  checksum: 32ea290c2706f8cec403677f27f62895d3b0c30c54ceae1eeb0272b3a63d58767989716093b2549b5c814554282eb1cb0af943e686b0ac594fbd18294f163c7a
   languageName: node
   linkType: hard
 
