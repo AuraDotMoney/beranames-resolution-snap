@@ -1932,7 +1932,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pkgr/core@npm:^0.2.3":
+"@pkgr/core@npm:^0.2.4":
   version: 0.2.4
   resolution: "@pkgr/core@npm:0.2.4"
   checksum: 8544f0346c3f7035b9e2fdf60179c68b12d3c76b3fba9533844099af67cf5c0ce5257538f5faa05953d48cc1536d046f003231f321b2f75b3fb449db8410a2b7
@@ -8121,17 +8121,17 @@ __metadata:
   linkType: hard
 
 "prettier-plugin-packagejson@npm:^2.2.11":
-  version: 2.5.12
-  resolution: "prettier-plugin-packagejson@npm:2.5.12"
+  version: 2.5.13
+  resolution: "prettier-plugin-packagejson@npm:2.5.13"
   dependencies:
     sort-package-json: 3.2.1
-    synckit: 0.11.4
+    synckit: 0.11.5
   peerDependencies:
     prettier: ">= 1.16.0"
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: d74b7329c78d1a8032e2599ddc3641556afabbe82d70ed35f8b7932a52ced77471c1ffdd57e022cb66ebcf8b74a35629a241c5f0a084eb88b322cf2104609fdc
+  checksum: 7290753f16ddc75cf0cf6489af12e9935d56d32193a65a30d8c9420e3d94a0e5ef5a86d648ba818244f06b45c7f3512eba81372cef0c697b5514c82abff5bc4f
   languageName: node
   linkType: hard
 
@@ -9378,13 +9378,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"synckit@npm:0.11.4":
-  version: 0.11.4
-  resolution: "synckit@npm:0.11.4"
+"synckit@npm:0.11.5":
+  version: 0.11.5
+  resolution: "synckit@npm:0.11.5"
   dependencies:
-    "@pkgr/core": ^0.2.3
+    "@pkgr/core": ^0.2.4
     tslib: ^2.8.1
-  checksum: ebbc345153c5cadcdd5b15b3a97ced98cfcff7cb6c2ef4c448e60814dd64e9dea0e0e77a7f0dd3daf6c4c287e170b83cbed8f4d5c08c8566152b293c4d889e11
+  checksum: 249189ba9b48a6f22a025559f9370901d55492470cb74ba51bcc5cc0930187a28f98a966b46b71ae7d2ade5510b6df6495504a2e54b3943eacdfc30a8f4543ab
   languageName: node
   linkType: hard
 
