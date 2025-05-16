@@ -1581,16 +1581,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-sdk@npm:6.23.0":
-  version: 6.23.0
-  resolution: "@metamask/snaps-sdk@npm:6.23.0"
+"@metamask/snaps-sdk@npm:6.24.0":
+  version: 6.24.0
+  resolution: "@metamask/snaps-sdk@npm:6.24.0"
   dependencies:
     "@metamask/key-tree": ^10.1.1
     "@metamask/providers": ^22.1.0
     "@metamask/rpc-errors": ^7.0.2
     "@metamask/superstruct": ^3.2.1
     "@metamask/utils": ^11.4.0
-  checksum: fb023533e2cfe6e85c601b9ed898e8f1ab9bce49eac28800e0e62b9077555da3294c4d0acc92cf1c249562a11dfcbcf7a82b2c8630560145ca91288386dfe9c3
+  checksum: 818001180eae49cea54f194cdebf4efdddb531e55d46c6fb8007fd221fe1ed0902d138bd64fa6b028545fa13d445b40f3b1f8ca87eba9a93295eab4ff299df74
   languageName: node
   linkType: hard
 
@@ -3324,7 +3324,7 @@ __metadata:
     "@metamask/eslint-config-typescript": ^14.0.0
     "@metamask/snaps-cli": ^7.0.0
     "@metamask/snaps-jest": ^8.10.0
-    "@metamask/snaps-sdk": 6.23.0
+    "@metamask/snaps-sdk": 6.24.0
     "@types/react": 19.1.4
     "@types/react-dom": 19.1.5
     "@typescript-eslint/eslint-plugin": ^8.20.0
