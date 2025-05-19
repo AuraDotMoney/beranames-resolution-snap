@@ -1590,7 +1590,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-sdk@npm:6.24.0":
+"@metamask/snaps-sdk@npm:6.24.0, @metamask/snaps-sdk@npm:^6.24.0":
   version: 6.24.0
   resolution: "@metamask/snaps-sdk@npm:6.24.0"
   dependencies:
@@ -1626,19 +1626,6 @@ __metadata:
     "@metamask/superstruct": ^3.2.1
     "@metamask/utils": ^11.2.0
   checksum: 7c5b2a8745da72816f320a42c9bfde56930ef124f40d289050f519a75ea7bb0f8b889034a7ad2435beae6ae97cbe597e7ee05565204f8696b3d294f0bba9d594
-  languageName: node
-  linkType: hard
-
-"@metamask/snaps-sdk@npm:^6.24.0":
-  version: 6.24.0
-  resolution: "@metamask/snaps-sdk@npm:6.24.0"
-  dependencies:
-    "@metamask/key-tree": ^10.1.1
-    "@metamask/providers": ^22.1.0
-    "@metamask/rpc-errors": ^7.0.2
-    "@metamask/superstruct": ^3.2.1
-    "@metamask/utils": ^11.4.0
-  checksum: 818001180eae49cea54f194cdebf4efdddb531e55d46c6fb8007fd221fe1ed0902d138bd64fa6b028545fa13d445b40f3b1f8ca87eba9a93295eab4ff299df74
   languageName: node
   linkType: hard
 
@@ -7971,17 +7958,17 @@ __metadata:
   linkType: hard
 
 "prettier-plugin-packagejson@npm:^2.2.11":
-  version: 2.5.13
-  resolution: "prettier-plugin-packagejson@npm:2.5.13"
+  version: 2.5.14
+  resolution: "prettier-plugin-packagejson@npm:2.5.14"
   dependencies:
     sort-package-json: 3.2.1
-    synckit: 0.11.5
+    synckit: 0.11.6
   peerDependencies:
     prettier: ">= 1.16.0"
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: 7290753f16ddc75cf0cf6489af12e9935d56d32193a65a30d8c9420e3d94a0e5ef5a86d648ba818244f06b45c7f3512eba81372cef0c697b5514c82abff5bc4f
+  checksum: 811d2b99e51ce60bb382135dc8590686d7f3da8e22c0af4596443eb6253decfe10d0ef0a3dba8d11e6660265b19cd02b150b9f733ee919119729abec292151fe
   languageName: node
   linkType: hard
 
@@ -9183,13 +9170,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"synckit@npm:0.11.5":
-  version: 0.11.5
-  resolution: "synckit@npm:0.11.5"
+"synckit@npm:0.11.6":
+  version: 0.11.6
+  resolution: "synckit@npm:0.11.6"
   dependencies:
     "@pkgr/core": ^0.2.4
-    tslib: ^2.8.1
-  checksum: 249189ba9b48a6f22a025559f9370901d55492470cb74ba51bcc5cc0930187a28f98a966b46b71ae7d2ade5510b6df6495504a2e54b3943eacdfc30a8f4543ab
+  checksum: ce910d27ee1b30ff961905e5d63d60e2cede4f33cd3dc7b46988989f83ac33b3020a193ec8121af9c999b68aa90c01ec42121ebf9fe4356cc6406b9ff037f180
   languageName: node
   linkType: hard
 
@@ -9425,7 +9411,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.4.0, tslib@npm:^2.8.1":
+"tslib@npm:^2.4.0":
   version: 2.8.1
   resolution: "tslib@npm:2.8.1"
   checksum: e4aba30e632b8c8902b47587fd13345e2827fa639e7c3121074d5ee0880723282411a8838f830b55100cbe4517672f84a2472667d355b81e8af165a55dc6203a
