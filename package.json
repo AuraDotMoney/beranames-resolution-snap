@@ -40,7 +40,7 @@
     "@metamask/eslint-config-typescript": "^14.0.0",
     "@metamask/snaps-cli": "^7.0.0",
     "@metamask/snaps-jest": "^8.10.0",
-    "@types/react": "19.1.4",
+    "@types/react": "19.1.5",
     "@types/react-dom": "19.1.5",
     "@typescript-eslint/eslint-plugin": "^8.20.0",
     "@typescript-eslint/parser": "^8.20.0",
