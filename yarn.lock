@@ -1597,7 +1597,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-sdk@npm:7.1.0":
+"@metamask/snaps-sdk@npm:7.1.0, @metamask/snaps-sdk@npm:^7.1.0":
   version: 7.1.0
   resolution: "@metamask/snaps-sdk@npm:7.1.0"
   dependencies:
@@ -1646,19 +1646,6 @@ __metadata:
     "@metamask/superstruct": ^3.2.1
     "@metamask/utils": ^11.4.0
   checksum: 818001180eae49cea54f194cdebf4efdddb531e55d46c6fb8007fd221fe1ed0902d138bd64fa6b028545fa13d445b40f3b1f8ca87eba9a93295eab4ff299df74
-  languageName: node
-  linkType: hard
-
-"@metamask/snaps-sdk@npm:^7.1.0":
-  version: 7.1.0
-  resolution: "@metamask/snaps-sdk@npm:7.1.0"
-  dependencies:
-    "@metamask/key-tree": ^10.1.1
-    "@metamask/providers": ^22.1.0
-    "@metamask/rpc-errors": ^7.0.2
-    "@metamask/superstruct": ^3.2.1
-    "@metamask/utils": ^11.4.0
-  checksum: 9d21b7193ce7dfc388188c9b8ad3983decc3d71f6478af23318933b214a6d42e5e152eb44815a0cdfc9b20eb1cee0a44e87793c3027bcbbdb4d9aa566e8c7743
   languageName: node
   linkType: hard
 
@@ -2556,12 +2543,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:19.1.5":
-  version: 19.1.5
-  resolution: "@types/react@npm:19.1.5"
+"@types/react@npm:19.1.6":
+  version: 19.1.6
+  resolution: "@types/react@npm:19.1.6"
   dependencies:
     csstype: ^3.0.2
-  checksum: 49c01b9d1874e11c02c26f08623474d86093ae02c76cf2b9c952093d855fab505ab8d8aaa162200270bd7b1fc03033859db24f6599affa1d05c5fe46374ecafc
+  checksum: 7f4d2e5fd0c1afa6aef956e551c982a59c3ccf37cf30b877300306dcae87e0c4bf7b28b54676b1783f4ca92e730af6fb7a4c1b7f6df27ba14579aa1617a58b09
   languageName: node
   linkType: hard
 
@@ -3443,7 +3430,7 @@ __metadata:
     "@metamask/snaps-cli": ^7.0.0
     "@metamask/snaps-jest": ^8.10.0
     "@metamask/snaps-sdk": 7.1.0
-    "@types/react": 19.1.5
+    "@types/react": 19.1.6
     "@types/react-dom": 19.1.5
     "@typescript-eslint/eslint-plugin": ^8.20.0
     "@typescript-eslint/parser": ^8.20.0
