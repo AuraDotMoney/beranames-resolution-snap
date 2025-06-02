@@ -7849,17 +7849,17 @@ __metadata:
   linkType: hard
 
 "prettier-plugin-packagejson@npm:^2.2.11":
-  version: 2.5.14
-  resolution: "prettier-plugin-packagejson@npm:2.5.14"
+  version: 2.5.15
+  resolution: "prettier-plugin-packagejson@npm:2.5.15"
   dependencies:
     sort-package-json: 3.2.1
-    synckit: 0.11.6
+    synckit: 0.11.8
   peerDependencies:
     prettier: ">= 1.16.0"
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: 811d2b99e51ce60bb382135dc8590686d7f3da8e22c0af4596443eb6253decfe10d0ef0a3dba8d11e6660265b19cd02b150b9f733ee919119729abec292151fe
+  checksum: f19814ac31df19dcc8acdba85088fe3c023116a96c75091e7877a4d6f23e1d909df4d467fda1895676b608df3670663dc1967d742880a5f3a5b177dd0d3b5b06
   languageName: node
   linkType: hard
 
@@ -9052,12 +9052,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"synckit@npm:0.11.6":
-  version: 0.11.6
-  resolution: "synckit@npm:0.11.6"
+"synckit@npm:0.11.8":
+  version: 0.11.8
+  resolution: "synckit@npm:0.11.8"
   dependencies:
     "@pkgr/core": ^0.2.4
-  checksum: ce910d27ee1b30ff961905e5d63d60e2cede4f33cd3dc7b46988989f83ac33b3020a193ec8121af9c999b68aa90c01ec42121ebf9fe4356cc6406b9ff037f180
+  checksum: dd7193736e0b5eb209192e280649b98b539537bf23bef20c8a2b24cd12ccde47bcf4e77773ff9cb66c35960d2cb41e28c05e0b19124488abbfb6423258b56275
   languageName: node
   linkType: hard
 
