@@ -2223,6 +2223,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pkgr/core@npm:^0.2.9":
+  version: 0.2.9
+  resolution: "@pkgr/core@npm:0.2.9"
+  checksum: bb2fb86977d63f836f8f5b09015d74e6af6488f7a411dcd2bfdca79d76b5a681a9112f41c45bdf88a9069f049718efc6f3900d7f1de66a2ec966068308ae517f
+  languageName: node
+  linkType: hard
+
 "@polka/url@npm:^1.0.0-next.24":
   version: 1.0.0-next.28
   resolution: "@polka/url@npm:1.0.0-next.28"
@@ -8560,17 +8567,17 @@ __metadata:
   linkType: hard
 
 "prettier-plugin-packagejson@npm:^2.2.11":
-  version: 2.5.15
-  resolution: "prettier-plugin-packagejson@npm:2.5.15"
+  version: 2.5.19
+  resolution: "prettier-plugin-packagejson@npm:2.5.19"
   dependencies:
-    sort-package-json: 3.2.1
-    synckit: 0.11.8
+    sort-package-json: 3.4.0
+    synckit: 0.11.11
   peerDependencies:
     prettier: ">= 1.16.0"
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: f19814ac31df19dcc8acdba85088fe3c023116a96c75091e7877a4d6f23e1d909df4d467fda1895676b608df3670663dc1967d742880a5f3a5b177dd0d3b5b06
+  checksum: a3caba8b62f92b53a8414cf1061a87bb5931e790c77022c64f3fa12122cf78b392912525deb9671bcdb196106a3078d4dcc6ae076fe2e14e26931b9d9b0195f1
   languageName: node
   linkType: hard
 
@@ -9419,9 +9426,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sort-package-json@npm:3.2.1":
-  version: 3.2.1
-  resolution: "sort-package-json@npm:3.2.1"
+"sort-package-json@npm:3.4.0":
+  version: 3.4.0
+  resolution: "sort-package-json@npm:3.4.0"
   dependencies:
     detect-indent: ^7.0.1
     detect-newline: ^4.0.1
@@ -9432,7 +9439,7 @@ __metadata:
     tinyglobby: ^0.2.12
   bin:
     sort-package-json: cli.js
-  checksum: 205cd80020e35d1f5a01f7a3c3ae540f9c90dedc0d41189fa44466d8ee687fc1efbd22be5f569a71c37810f671352bf2eb6b138604d71b4d452b19298fbaeb63
+  checksum: 47ee11a14c6882954b537b59e7a66994adfc8ce370ca957d89d52c0379067900ee9f322625f496f00e2e5c01554c90633839f562a6bcb4f1bc1f262cf69a2072
   languageName: node
   linkType: hard
 
@@ -9750,7 +9757,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"synckit@npm:0.11.8, synckit@npm:^0.11.8":
+"synckit@npm:0.11.11":
+  version: 0.11.11
+  resolution: "synckit@npm:0.11.11"
+  dependencies:
+    "@pkgr/core": ^0.2.9
+  checksum: bc896d4320525501495654766e6b0aa394e522476ea0547af603bdd9fd7e9b65dcd6e3a237bc7eb3ab7e196376712f228bf1bf6ed1e1809f4b32dc9baf7ad413
+  languageName: node
+  linkType: hard
+
+"synckit@npm:^0.11.8":
   version: 0.11.8
   resolution: "synckit@npm:0.11.8"
   dependencies:
