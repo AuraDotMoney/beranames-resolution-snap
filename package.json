@@ -41,7 +41,7 @@
     "@metamask/snaps-cli": "^8.0.0",
     "@metamask/snaps-jest": "^9.0.0",
     "@types/react": "19.1.12",
-    "@types/react-dom": "19.1.8",
+    "@types/react-dom": "19.1.9",
     "@typescript-eslint/eslint-plugin": "^8.20.0",
     "@typescript-eslint/parser": "^8.20.0",
     "eslint": "^8.45.0",
