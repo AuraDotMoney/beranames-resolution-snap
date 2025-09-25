@@ -653,16 +653,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@es-joy/jsdoccomment@npm:~0.58.0":
-  version: 0.58.0
-  resolution: "@es-joy/jsdoccomment@npm:0.58.0"
+"@es-joy/jsdoccomment@npm:~0.60.0":
+  version: 0.60.0
+  resolution: "@es-joy/jsdoccomment@npm:0.60.0"
   dependencies:
     "@types/estree": ^1.0.8
-    "@typescript-eslint/types": ^8.43.0
+    "@typescript-eslint/types": ^8.44.1
     comment-parser: 1.4.1
     esquery: ^1.6.0
     jsdoc-type-pratt-parser: ~5.4.0
-  checksum: 2dd4c98c183cf30183f47d80c9a11d627e01eaa4eb7fa2e641f4a0d3ecf844c70b3a56a3b179f541f5e38b11473f880b8c9df4dec0530a1337277ea63810bae5
+  checksum: 2a4a227b51e5796410d8026c56acda25c8e5bc0ed4a4c8b65c6b1c16a7d5349b77e99c262cfebe40820391e55604bb85a958af06e2c4e32ade2ed5fa5b7d3dd2
   languageName: node
   linkType: hard
 
@@ -3060,13 +3060,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:^8.43.0":
-  version: 8.43.0
-  resolution: "@typescript-eslint/types@npm:8.43.0"
-  checksum: a6aabc17d477a1f518f76bb0b6fbad8d5b819f2239af047a46c755a243758cf98c7ea7ec7a8aa7c5cdada68c1c4e21797b07a65c36f65544119bfa13dbc37252
-  languageName: node
-  linkType: hard
-
 "@typescript-eslint/typescript-estree@npm:8.39.0":
   version: 8.39.0
   resolution: "@typescript-eslint/typescript-estree@npm:8.39.0"
@@ -5378,23 +5371,24 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-jsdoc@npm:^60.0.0":
-  version: 60.2.0
-  resolution: "eslint-plugin-jsdoc@npm:60.2.0"
+  version: 60.3.1
+  resolution: "eslint-plugin-jsdoc@npm:60.3.1"
   dependencies:
-    "@es-joy/jsdoccomment": ~0.58.0
+    "@es-joy/jsdoccomment": ~0.60.0
     are-docs-informative: ^0.0.2
     comment-parser: 1.4.1
     debug: ^4.4.3
     escape-string-regexp: ^4.0.0
     espree: ^10.4.0
     esquery: ^1.6.0
+    html-entities: ^2.6.0
     object-deep-merge: ^1.0.5
     parse-imports-exports: ^0.2.4
     semver: ^7.7.2
     spdx-expression-parse: ^4.0.0
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 4d38664b5217259ca953f2d0e5dc8ab23fa136dd5a34ad5e1b319749f183426b80601a157f19e83c529a043fea590c1cadb81b8d71d6e1171476c5568a2abb33
+  checksum: 3dbcd0c0b3885262a91d90e1aee69344e946546efcda44203e107d14e13abb95e3f5d3ef7d0935ee34fe58512b9a45a6f571efa0a05b0ab59a3304791a980997
   languageName: node
   linkType: hard
 
@@ -6458,6 +6452,13 @@ __metadata:
     minimalistic-assert: ^1.0.0
     minimalistic-crypto-utils: ^1.0.1
   checksum: bd30b6a68d7f22d63f10e1888aee497d7c2c5c0bb469e66bbdac99f143904d1dfe95f8131f95b3e86c86dd239963c9d972fcbe147e7cffa00e55d18585c43fe0
+  languageName: node
+  linkType: hard
+
+"html-entities@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "html-entities@npm:2.6.0"
+  checksum: 720643f7954019c80911430a7df2728524c07080edfe812610bfc5d8191cd772b470bee0ee151bf7426679314ae53cf28a1c845d702123714e625a8565b26567
   languageName: node
   linkType: hard
 
