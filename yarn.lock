@@ -2897,12 +2897,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:19.1.15":
-  version: 19.1.15
-  resolution: "@types/react@npm:19.1.15"
+"@types/react@npm:19.1.16":
+  version: 19.1.16
+  resolution: "@types/react@npm:19.1.16"
   dependencies:
     csstype: ^3.0.2
-  checksum: 3fcdeaddcca2ca09aadbce93c7f8105a46933f5f9ca8643b5f3599f41207c46a9982267e9095b67b2b69c5b4ac6e4450c74698cd99406baf8d31fa5333e86e22
+  checksum: 2c58c6be656b111774da23b98d9f797ab5befb1e0a7900c698f04701de66977c36d5a9c989b10b2da1d575ca9a45a6f3bf75292a0ad24a0c91457549cd65f9e6
   languageName: node
   linkType: hard
 
@@ -3976,7 +3976,7 @@ __metadata:
     "@metamask/snaps-cli": ^8.0.0
     "@metamask/snaps-jest": ^9.0.0
     "@metamask/snaps-sdk": 9.3.0
-    "@types/react": 19.1.15
+    "@types/react": 19.1.16
     "@types/react-dom": 19.1.9
     "@typescript-eslint/eslint-plugin": ^8.20.0
     "@typescript-eslint/parser": ^8.20.0
